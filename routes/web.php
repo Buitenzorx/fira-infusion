@@ -11,4 +11,3 @@ Route::get('/dashboard', function () {
     return view('dashboard', compact('weights'));
 });
 
-ASD
