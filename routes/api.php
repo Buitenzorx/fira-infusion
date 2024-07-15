@@ -10,7 +10,7 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::post('/weights', [WeightController::class, 'store']);
-Route::get('/weights', [WeightController::class, 'index']);
+// Route::get('/weights', [WeightController::class, 'index']);
 
 
 
